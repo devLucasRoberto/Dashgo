@@ -13,8 +13,8 @@ import * as yup from 'yup'
 import { yupResolver } from '@hookform/resolvers/yup/dist/yup'
 import { Input } from '../../components/Form/Input'
 import { Header } from '../../components/Header'
-import { Sidebar } from '../../components/Sidebar'
 import { SubmitHandler, useForm } from 'react-hook-form'
+import { Sidebar } from '../../components/Sidebar'
 
 type CreateUserFormData = {
   name: string
